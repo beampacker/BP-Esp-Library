@@ -82,28 +82,6 @@ local camera = game.Workspace.CurrentCamera;
 local Cam = Workspace.CurrentCamera;
 local RotationAngle, Tick = -45, tick();
 
--- Weapon Images
-local Weapon_Icons = {
-    ["Wooden Bow"] = "http://www.roblox.com/asset/?id=17677465400",
-    ["Crossbow"] = "http://www.roblox.com/asset/?id=17677473017",
-    ["Salvaged SMG"] = "http://www.roblox.com/asset/?id=17677463033",
-    ["Salvaged AK47"] = "http://www.roblox.com/asset/?id=17677455113",
-    ["Salvaged AK74u"] = "http://www.roblox.com/asset/?id=17677442346",
-    ["Salvaged M14"] = "http://www.roblox.com/asset/?id=17677444642",
-    ["Salvaged Python"] = "http://www.roblox.com/asset/?id=17677451737",
-    ["Military PKM"] = "http://www.roblox.com/asset/?id=17677449448",
-    ["Military M4A1"] = "http://www.roblox.com/asset/?id=17677479536",
-    ["Bruno's M4A1"] = "http://www.roblox.com/asset/?id=17677471185",
-    ["Military Barrett"] = "http://www.roblox.com/asset/?id=17677482998",
-    ["Salvaged Skorpion"] = "http://www.roblox.com/asset/?id=17677459658",
-    ["Salvaged Pump Action"] = "http://www.roblox.com/asset/?id=17677457186",
-    ["Military AA12"] = "http://www.roblox.com/asset/?id=17677475227",
-    ["Salvaged Break Action"] = "http://www.roblox.com/asset/?id=17677468751",
-    ["Salvaged Pipe Rifle"] = "http://www.roblox.com/asset/?id=17677468751",
-    ["Salvaged P250"] = "http://www.roblox.com/asset/?id=17677447257",
-    ["Nail Gun"] = "http://www.roblox.com/asset/?id=17677484756"
-};
-
 -- Functions
 local Functions = {}
 do
